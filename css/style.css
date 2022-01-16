@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/lato.woff);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/playfair.woff);
+}
+
+body {
+    background-color: #F9F4E8;
+}
+
+section {
+    padding-inline: 200px;
+    padding-block: 50px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-contratando {
+    position: relative;
+    left: 120px;
+    border-radius: 25px;
+    padding: 5px 15px;
+    height: 30px;
+    border: none;
+    font-family: lato;
+    color: #FFF;
+    font-weight: bold;
+    background: rgb(234,82,116);
+    background: linear-gradient(270deg, rgba(234,82,116,1) 0%, rgba(234,179,81,1) 100%);
+}
+
+nav {
+    font-family: lato;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+      
+}
+
+nav ul li {
+    display: inline;
+    margin-inline: 10px;
+    color: #525252;  
+}
+
+.btn-sign {
+    height: 50px;
+    width: 130px;
+    background-color: #4977EA;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-texto {    
+    position: relative;
+    top: 200px;
+    width: 600px;
+    margin-block: auto;
+}
+
+.container-conteudo div h1 {
+    font-family: playfair;
+    font-size: 4rem;
+}
+
+.container-conteudo div p {
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    color: #525252;  
+    margin-bottom: 15px;
+}
+
+.container-conteudo div input {
+    width: 300px; 
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-check {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-check p {
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    color: #525252; 
+    margin-top: 12px;
+}
+
+#placeholder-text::placeholder {
+    font-family: lato;
+    font-size: 15px;
+    font-weight: bold;
+    color: #525252;  
+    padding-left: 25px;
+}
+
+.azul, .rosa, .roxo, .modelo {
+    color: #fff;
+    display: block;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+
+.azul {
+    right: 200px;
+    top: 200px;
+    z-index: 0;
+    transform: rotate(-45deg);
+}
+.rosa {
+    right: 200px;
+    top: 200px;
+    z-index: 1;
+    transform: rotate(-30deg);
+}
+.roxo {
+    right: 200px;
+    top: 200px;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+
+.modelo {
+    right: 200px;
+    top: 200px;
+    z-index: 2;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer div ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 100px;
+}
+
+.container-footer a {
+    text-decoration: none;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: bold;
+    color: #525252;
+}
+
+.container-help {
+    width: 230px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 80px;
+    right: 200px;
+}
+
+.texto-duvida {
+    font-family: playfair;
+    font-weight: bolder;
+}
+
+.texto-especialista {
+    font-family: lato;
+    font-weight: bolder;
+}
