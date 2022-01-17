@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
     <title>Hosterr Hospedagem</title>
 </head>
 <body>
@@ -17,24 +18,43 @@
                 
                 <nav>
                     <ul>
-                        <li><a href=""></a>Planos</li>
-                        <li><a href=""></a>Encontre um domínio</li>
-                        <li><a href=""></a>Por que Hosterr?</li>
-                        <li style="position: absolute; right: 350px;"><a href=""></a>Entrar</li>
+                        <li><a href="">Planos</a></li>
+                        <li><a href="">Encontre um domínio</a></li>
+                        <li><a href="">Por que Hosterr?</a></li>
+                        <li style="position: absolute; right: 350px;"><a href="">Entrar</a></li>
                     </ul>
                 </nav>
 
                 <button class="btn-sign">Lista de Espera</button>
 
+                <div class="menu-burger">
+                    <div id="burger-1"></div>
+                    <div id="burger-2"></div>
+                    <div id="burger-3"></div>
+                </div>
+
+        </div>
+
+        <div class="menu-escondido display-none">
+            <nav id="menu-escondido">
+                <ul>
+                    <li><a href="">Planos</a></li>
+                    <li><a href="">Encontre um domínio</a></li>
+                    <li><a href="">Por que Hosterr?</a></li>
+                    <li><a href="">Entrar</a></li>
+                </ul>
+            </nav>
+
+            <button id="btn-escondido" class="btn-sign">Lista de Espera</button>
         </div>
 
         <div class="container-conteudo">
             <div class="container-texto">
                 <h1>Hospede seu site em menos de 5 minutos.</h1>
-                <p>Com Hosterr, coloque seu site no ar em menos de 5 minutos com os preços mais competitivos disponíveis online.</p>
-                <div>
+                <p style="margin-block: 25px;">Com Hosterr você coloca seu site no ar em menos de 5 minutos com os preços mais competitivos disponíveis online.</p>
+                <div class="container-input">
                     <input id="placeholder-text" type="email" placeholder="Endereço de e-mail">
-                    <button class="btn-sign">Lista de Espera</button>
+                    <button class="btn-input">Lista de Espera</button>
                 </div>
                 <div class="container-check">
                     <img src="Assets/Checkmark.svg" alt="">
@@ -68,5 +88,7 @@
         </footer>
 
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

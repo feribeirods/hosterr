@@ -26,6 +26,14 @@ section {
     border: 1px solid red;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .container-header {
     display: flex;
     align-items: center;
@@ -63,6 +71,10 @@ nav ul li {
     color: #525252;  
 }
 
+nav ul li a {
+    color: #525252;  
+}
+
 .btn-sign {
     height: 50px;
     width: 130px;
@@ -75,17 +87,27 @@ nav ul li {
     border-radius: 5px;
 }
 
+#menu-escondido {
+    display: none;
+}
+
+#btn-escondido {
+    display: none;
+}
+
 .container-conteudo {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .container-texto {    
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 30%;
     width: 600px;
-    margin-block: auto;
+}
+
+.container-input {
+    display: flex;
 }
 
 .container-conteudo div h1 {
@@ -106,6 +128,19 @@ nav ul li {
     height: 50px;
     border: none;
     border-radius: 5px;
+}
+
+.btn-input {
+    height: 50px;
+    width: 130px;
+    background-color: #4977EA;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
 }
 
 .container-check {
@@ -142,26 +177,26 @@ nav ul li {
 
 .azul {
     right: 200px;
-    top: 200px;
+    top: 20%;
     z-index: 0;
     transform: rotate(-45deg);
 }
 .rosa {
     right: 200px;
-    top: 200px;
+    top: 20%;
     z-index: 1;
     transform: rotate(-30deg);
 }
 .roxo {
     right: 200px;
-    top: 200px;
+    top: 20%;
     z-index: 2;
     transform: rotate(-15deg);
 }
 
 .modelo {
     right: 200px;
-    top: 200px;
+    top: 20%;
     z-index: 2;
 }
 
@@ -174,11 +209,10 @@ nav ul li {
     display: flex;
     list-style: none;
     position: absolute;
-    bottom: 100px;
+    bottom: 5%;
 }
 
 .container-footer a {
-    text-decoration: none;
     font-family: lato;
     font-size: 16px;
     font-weight: bold;
@@ -190,7 +224,7 @@ nav ul li {
     display: flex;
     position: absolute;
     justify-content: space-between;
-    bottom: 80px;
+    bottom: 3%;
     right: 200px;
 }
 
