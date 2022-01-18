@@ -302,3 +302,69 @@
     }
 
 }
+
+@media only screen and (max-width: 280px)  {
+
+    section {
+        padding-block: 10px;
+        padding-inline: 10px;
+        height: 180vh;
+    }
+
+    .btn-contratando {
+        position: relative;
+        top: 40px;
+        left: 50px;
+        border-radius: 25px;
+        padding: 5px 15px;
+        height: 30px;
+        border: none;
+        font-family: lato;
+        color: #FFF;
+        font-weight: bold;
+        background: rgb(234,82,116);
+        background: linear-gradient(270deg, rgba(234,82,116,1) 0%, rgba(234,179,81,1) 100%);
+    }
+
+    .btn-sign {
+        display: none;
+        width: 250px;
+        margin-inline: 5%;
+    }
+    
+    .container-conteudo div input {
+        width: 250px;
+    }
+    
+    .btn-input {
+        width: 250px;        
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .container-check {
+        width: 260px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-footer {
+        display: block;
+    }
+    
+    .container-footer div ul {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        left: 10%;
+        top: 1050px;
+    }
+    
+    .container-help {
+        width: 230px;
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 1120px;
+    }
+}
