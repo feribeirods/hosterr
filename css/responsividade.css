@@ -133,7 +133,7 @@
     
 }
 
-@media only screen and (max-width: 375px)  {
+@media only screen and (max-width: 400px)  {
 
     section {
         padding-block: 10px;
@@ -164,6 +164,10 @@
         height: 5px;
         margin-bottom: 5px;
         border-radius: 2px;
+    }
+
+    .menu-burger div {
+        float: right;
     }
 
     .burger-1 {
@@ -303,7 +307,7 @@
 
 }
 
-@media only screen and (max-width: 280px)  {
+@media only screen and (max-width: 350px)  {
 
     section {
         padding-block: 10px;
@@ -312,18 +316,19 @@
     }
 
     .btn-contratando {
-        position: relative;
-        top: 40px;
-        left: 50px;
-        border-radius: 25px;
-        padding: 5px 15px;
-        height: 30px;
-        border: none;
-        font-family: lato;
-        color: #FFF;
-        font-weight: bold;
-        background: rgb(234,82,116);
-        background: linear-gradient(270deg, rgba(234,82,116,1) 0%, rgba(234,179,81,1) 100%);
+        display: none;
+    }
+
+    .menu-burger {
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .container-header img {
+            position: absolute;
+            left: 10px;
+            top: 20px;
     }
 
     .btn-sign {
